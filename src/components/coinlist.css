@@ -1,0 +1,125 @@
+* {
+    color: aliceblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px 12px;  
+    text-align: center;
+  }
+  
+  
+  
+  .sparkline-chart {
+    justify-content: center;
+    height: 40vh;
+    color: white;
+  }
+
+ .linechart {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    height: 40vh;
+    margin-right: 5vw;
+ }
+
+ .detail {
+    
+    margin-left: 2vw;
+    margin-top: 5vh;
+
+ }
+
+  .uppercont {
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  }
+  
+  .pricechart {
+    margin-left: 12vw;
+  }
+  
+
+p {
+    padding: 5px;
+}
+
+
+
+.loww {
+    
+    height: 35vh;
+    background-color: black;
+    overflow-y: auto;
+    scrollbar-color: black;
+}
+
+.rrrr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47.5vh;
+}
+
+.loading {
+    font-size: 40px;
+}
+
+.logoo {
+    padding: 30px;
+}
+
+.title_ {
+    margin-left: 2vw ;
+}
+
+.buttonadd {
+    background-color: #1976D2;
+    border: 0cap;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.mmm {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+
+.watch {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.watchlist {
+    width: 30vw;
+    height: 58vh;
+    overflow-y: scroll;
+}
+
+.watchhead {
+    margin-top: 5vh;
+    margin-left: 8vw;
+    margin-bottom: 2vh;
+}
+
+.watchlist::-webkit-scrollbar {
+    display: none;
+  }
+
+  .loww::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .lefttemp {
+    width: 60vw;
+  }
